@@ -1,0 +1,37 @@
+.check{
+  opacity: 0;
+  transition: opacity .5s ease-in-out ;
+}
+.color-radio:checked + label .check {
+  opacity: 1;
+  transition: opacity .5s ease-in-out ;
+}
+.color-radio{
+  display: none;
+}
+/* size item style */
+.size-radio:checked + label .check {
+  opacity: 1;
+  transition: opacity .5s ease-in-out ;
+}
+.size-radio{
+  display: none;
+}
+
+
+/* gallery style */
+.thumb-div {
+  overflow-y: auto;  /* Enable vertical scrollbar if content exceeds container height */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+
+  /* WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the scrollbar thumb */
+  }
+}
+

@@ -1,0 +1,33 @@
+.icon-dash{
+    width: 10px;
+    height: 2px;
+    transition: width .5s ease-in-out;
+}
+
+.categories-title:hover .icon-dash{
+   width: 20px !important;
+   transition: width .5s ease-in-out;
+}
+
+
+
+
+/* DisplayCategories.css */
+.fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }
+  

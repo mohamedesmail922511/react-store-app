@@ -1,0 +1,37 @@
+.dropdown-content{
+    height:0;
+    overflow: hidden;
+    position: absolute;
+   
+}
+.nav-item:hover .dropdown-content{
+    height: fit-content;
+    transition: height 5s ease-in-out;
+
+}
+
+.dropdown-items{
+    background-color: #fff !important;
+    z-index: 999;
+    width: fit-content;   
+    padding: 20px;
+    border-radius: 10px;
+}
+.dropdown-items ul li a{
+    color: black;
+}
+.dropdown-items ul li a:hover{
+    font-size: 13px;
+    transition: all .5s ease-in-out;
+}
+
+.dropdown-content-mobile{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out ;
+}
+.nav-item:hover .dropdown-content-mobile{
+    max-height:600px;
+    overflow: visible;
+    transition: all .5s ease-in-out ;
+}

@@ -1,0 +1,8 @@
+.addtocart-div,.icons-product{
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.productitem:hover .addtocart-div ,.productitem:hover .icons-product{
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+}
